@@ -1,0 +1,40 @@
+body {
+  background-color: #19183b;
+  color: #e7f2ef;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#balance,
+#loan {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+button {
+  background-color: #e7f2ef;
+  border: 2px solid #a1c2bd;
+  border-radius: 6px;
+  padding: 15px;
+  cursor: pointer;
+  transition: 0.2s all;
+  font-weight: bold;
+  width: 150px;
+}
+
+button:hover {
+  background-color: #708993;
+  transform: scale(1.1);
+}
+
+button:active {
+  background-color: #5a6e77;
+  transform: scale(1);
+}
+
+button:disabled {
+  pointer-events: none;
+}
